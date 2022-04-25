@@ -1,0 +1,26 @@
+--About Pull Request
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+ Once a pull request is opened, you can discuss and review the potential changes
+ with collaborators and add follow-up commits
+ before your changes are merged into the base branch.
+
+
+--about git rebas 
+Rebase is one of two Git utilities that specializes in integrating changes from one branch onto another.
+ The other change integration utility is git merge. Merge is always a forward moving change record.
+ Alternatively, rebase has powerful history rewriting features.
+ For a detailed look at Merge vs.
+ Rebase, visit our Merging vs Rebasing guide. Rebase itself has 2 main modes: "manual" and "interactive" mode.
+ We will cover the different Rebase modes in more detail below.
+
+
+Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+ Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+ The general process can be visualized as the following:
+Git tutorial: Git rebase
+
+From a content perspective, rebasing is changing the base of your branch from one commit to another making
+ it appear as if you'd created your branch from a different commit.
+ Internally, Git accomplishes this by creating new commits and applying them to the specified base.
+ It's very important to understand that even though the branch looks the same,
+ it's composed of entirely new commits.
